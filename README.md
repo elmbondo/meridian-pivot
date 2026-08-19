@@ -1,4 +1,4 @@
-\# Meridian Pivot — Northstar Inventory Sync
+\ Meridian Pivot - Northstar Inventory Sync
 
 
 
@@ -6,15 +6,15 @@ Day 3 build for the Meridian Pivot sprint (PLP). Two-service architecture simula
 
 
 
-\## Services
+\ Services
 
-\- `warehouse\_api/` — mock warehouse system exposing `/stock`, standing in for Northstar's real inventory system
+\- `warehouse\_api/` - mock warehouse system exposing `/stock`, standing in for Northstar's real inventory system
 
-\- `sync\_service/` — polls the warehouse every 5 minutes, caches results in SQLite, and exposes `/stock/<sku>` for querying current stock
+\- `sync\_service/` - polls the warehouse every 5 minutes, caches results in SQLite, and exposes `/stock/<sku>` for querying current stock
 
 
 
-\## Running locally
+\ Running locally
 
 1\. Create and activate a virtual environment, then `pip install flask requests`
 
